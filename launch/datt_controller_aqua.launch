@@ -1,0 +1,4 @@
+<launch>
+    <node name='datt_controller_aqua' pkg='datt_controller' type='rc_aqua.py' output='screen'>
+    </node>
+</launch>

@@ -1,0 +1,4 @@
+<launch>
+        <node pkg="rosbag" type="record" name="record_datt" output="screen"
+              args="-o /data/datt_$(arg my_args) /aqua/command /aqua/periodic_leg_command /aqua/target_pose /tf /camera_front_right/image_raw /detection/image /detection/prediction"/>
+</launch>
